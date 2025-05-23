@@ -13,7 +13,7 @@
 
 In this HR analytics project, I developed a in-depth Power BI dashboard by integrating insights from three separate text files: Employee Data, Training & Development, and Recruitment.After performing thorough data cleaning and transformation, I utilized DAX to build custom measures and KPIs, enabling dynamic analysis of key HR metrics.
 
-![SCREENSHOT1](https://github.com/user-attachments/assets/f1789af1-6760-4a68-ac36-eb81218a1cc0)
+![Healthcare dashbaord project](https://github.com/user-attachments/assets/f1789af1-6760-4a68-ac36-eb81218a1cc0)
 
 
 
