@@ -18,6 +18,7 @@ In this HR analytics project, I developed a in-depth Power BI dashboard by integ
 
 
 
+
 ### Data Sources
 
 Sourced from well-structured CSV files, the data offers a well-rounded insight of the employee journey—from recruitment and onboarding to training and professional development.
