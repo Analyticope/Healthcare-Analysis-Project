@@ -6,14 +6,14 @@
  - [Data Sources](#data-sources)
  - [Recommendation](recommendations)
    
-## HR Workforce capacity Analytics Dashboard
+## Healthcare Analysis Dashboard
 
 ### Project Overview
 ---
 
-In this HR analytics project, I developed a in-depth Power BI dashboard by integrating insights from three separate text files: Employee Data, Training & Development, and Recruitment.After performing thorough data cleaning and transformation, I utilized DAX to build custom measures and KPIs, enabling dynamic analysis of key HR metrics.
+In this Healthcare analysis project, I developed a in-depth Excel dashboard by integrating insights from a text files:The goal is to uncover meaningful insights into patient demographics, medical conditions, test outcomes, hospital stay durations, billing patterns and healthcare provider performance.After performing thorough data cleaning and transformation, I utilized Pivot Table to build custom measures and KPIs, enabling dynamic analysis of key in Healthcare metrics.
 
-![Healthcare dashbaord project](https://github.com/user-attachments/assets/f1789af1-6760-4a68-ac36-eb81218a1cc0)
+![Healthcare dashbaord project](https://github.com/Analyticope/Healthcare-Analysis-Project/blob/main/Healthcare%20dashboard%20project.jpg)
 
 
 
@@ -21,7 +21,7 @@ In this HR analytics project, I developed a in-depth Power BI dashboard by integ
 
 ### Data Sources
 
-Sourced from well-structured CSV files, the data offers a well-rounded insight of the employee journey—from recruitment and onboarding to training and professional development.
+Sourced from well-structured CSV files, the data offers a well-rounded insight of the patient demographics, medical conditions and more so to show the outcome of test results and billing patterns and healthcare insurance provider.
 
 ### Tools
 
@@ -29,7 +29,7 @@ Sourced from well-structured CSV files, the data offers a well-rounded insight o
   - [Download here](https://microsoft.com)
 - Power Query - data cleaning, automate repetitive task(like fiitering, merging, and formatting).
 - Building custom columns to perform specific calculations
-- Power BI - Developing insightful analytics reports
+- Excel - Developing insightful analytics reports
 
 
   ### Data Cleaning/Preparation
@@ -46,39 +46,34 @@ Sourced from well-structured CSV files, the data offers a well-rounded insight o
 
 ### Exploratory Data Analysis
 
-Eda Involved Exploring HR data to answer key question, such as :
+Eda Involved Exploring Healthcare data to answer key question, such as :
 
-10 Key Questions This Power BI HR Project Answers:
+7 Key Questions Excel Healthcare Project Answers:
 
-1. What is the average salary across departments?
+This healthcare dashboard analyzes data from 55,500 patients across various metrics:
 
-2. How many employees are currently active?
+	-How many Patient Demographics?
 
-3. What is the gender breakdown of the workforce?
+	-How many Medical Conditions: Obesity, hypertension, diabetes, and more analyzed by test results (normal, abnormal, inconclusive).
 
-4. What is the total cost spent on training?
+	-Test Outcomes: Similar result patterns across genders.
 
-5. How many offer and rejection letters were issued?
+	-What is the Average length of stay?
 
-6. What is the race and ethnicity distribution?
+	-What is Average Billing & Insurance Provider?
 
-7. How does racial diversity vary across the company?
+	-Interactive Filters: Gender, test results, and admission/discharge years for dynamic exploration.
 
-8. How do employee ratings differ by department?
-
-9. What is the employee count by state?
-
-10. How are applications distributed by recruitment status?
     
 ### Data Analysis
 
 Tools & Features Used:
 
-- DAX functions for custom measures and KPIs.
+- Pivot Table and excel functions for custom measures and KPIs.
 
 - Power Query for data cleaning and transformation.
 
-- Calculated columns and measures.
+- Pivot Table use for Calculated columns and measures.
 
 - Custom columns and “Column by Example”.
 
@@ -88,48 +83,48 @@ Tools & Features Used:
 
 ### Results/Findings
 
-This HR Analytics Dashboard delivers actionable insights into the organization’s workforce. Key findings include:
+The dashboard revealed several key insights across patient demographics, healthcare delivery, and cost metrics:
+-Balanced Gender Representation: The dataset contains an equal distribution of male and female patients, allowing for unbiased gender-based analysis.
 
-- Average Salary: $65K across 991 active employees, with an average age of 42.
+-Age Concentration: A significant portion of patients falls within the 40–60 age range, aligning with the increased risk for chronic conditions in mid to late adulthood.
 
-- Gender Distribution: 668 males (56%) and 865 females (44%), totaling 1,533 employees.
+-Test Result Trends: Abnormal and inconclusive results are nearly equal across genders, with a slightly higher count of normal results among female patients. This consistency suggests no major gender disparities in diagnostic outcomes.
 
-- Training Investment: $2M total training cost, with $1.67M attributed to training outcomes.
+	-Prevalent Conditions: Hypertension, diabetes, and obesity are the most commonly observed conditions. Test result outcomes for these conditions appear proportionally distributed across categories.
 
-- Applications Overview: 1,997 applications processed.
+	-Hospital Stay Duration: The average length of stay is 15.5 days. A noticeable spike in extended stays (28–30 days) may indicate either complex cases or administrative factors impacting discharge times.
 
-- Additional Insights:
+	-Billing Insights: The average billing amount per patient is approximately $25,539. While the dataset includes six insurance providers, no major billing discrepancies were observed across test result categories.
 
-    - Exit trends by department
+	-Healthcare Provider Distribution: Abbott-affiliated hospitals have the highest doctor counts. Top doctors are ranked by patient volume, though qualitative metrics like patient outcomes or satisfaction are not included.
 
-    - Average employee contract types
-
-   - Application status distribution
-
-   - Workforce spread across states and departments
-
+     
   ### Recommendation
 
-     Based on the HR analysis, we recommend investigating gender disparities within the recruitment pipeline to ensure equal opportunity hiring. Special attention 
-     should be given to employees exiting under the “Needs Improvement” category, as this may indicate deeper issues with performance management or onboarding. 
-     Additionally, evaluating the cost-effectiveness of training programs can help optimize learning investments and improve outcomes. Finally, a closer look at employee 
-     distribution across departments can support more strategic workforce planning and better resource allocation.
+   Recommendations Based on Insights 
+ 1. Optimize Patient Length of Stay • Investigate the causes of longer hospital stays (e.g., over 25 days) to identify inefficiencies in patient care or discharge processes. Consider implementing early discharge planning and case management strategies to reduce average stay duration. 
+
+ 2.Target Chronic Conditions with Preventive Programs • Conditions like Diabetes, Hypertension, and Cancer have high abnormal test results. Implement preventive care programs and chronic disease management initiatives to reduce complications and long-term costs. 
+
+ 3. Improve Gender-Specific Health Services • Since abnormal results are slightly higher among females, consider exploring gender-specific diagnostic or screening programs to improve early detection and care. 
+
+ 4. Rebalance Doctor Workloads • Doctors like Aaron Baker handle disproportionately high patient volumes. Redistributing patient loads or hiring additional qualified professionals can help maintain quality of care and reduce burnout.
+
+ 5. Diversify Insurance Partnerships • With only 6 insurance providers, explore partnerships with additional insurers to give patients more flexibility, reduce billing barriers, and potentially improve service access. 
+ 6. Invest in Elderly Care Services • The majority of patients fall into the 60+ age group. Enhancing geriatric care, home-based treatment options, and specialized support could significantly improve outcomes and satisfaction. 
+
+ 7. Monitor Hospital Resource Allocation • A few hospitals dominate doctor counts. Assess whether this leads to overcrowding and consider expanding facilities or redistributing services to other locations to ensure equitable access. 
+
+ 8. Enhance Data Collection Over Time • Leverage the multi-year dataset (2019–2024) to perform trend forecasting, identifying seasonal patterns, post-pandemic shifts, or improvements in care quality over time. 9. Explore Billing Optimization • With an average billing amount over $25,000, assess billing components, compare with national averages, and consider cost-containment strategies such as bundled payments or telemedicine options.
+
 
 ### Limitations
+-The analysis is based solely on available patient data and does not account for external factors such as lifestyle, location, or socioeconomic status.
 
-During the development of the HR dashboard, I encountered limitations related to inconsistent and unnecessary data, particularly with date fields and blank rows. These issues affected the accuracy of filtering and overall dashboard performance. To resolve this, I cleaned and transformed the data using tools in the Power Query ribbon removing redundant entries and handling null values to ensure smooth functionality and prevent potential breakdowns in the analysis.
+- Trends over time and outcomes of treatments are not included, limiting insight into patient progress or healthcare effectiveness.
 
-😄
+- Doctor and hospital metrics are based on patient count only, without consideration of quality or specialization.
 
-💻
+- Billing and insurance data are summarized and not broken down by specific medical conditions or patient categories.
 
-|Heading1|Heading2|
-|-------|-------|
-|Content|Content2|
-|Excel|Power BI|
 
-column_1
-
-**bold**
-
-*italic*
