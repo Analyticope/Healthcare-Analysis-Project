@@ -129,7 +129,7 @@ Tools & Features Used:
  8. Enhance Data Collection Over Time 
 - Leverage the multi-year dataset (2019–2024) to perform trend forecasting, identifying seasonal patterns, post-pandemic shifts, or improvements in care quality over time.
  
-   9. Explore Billing Optimization 
+9.Explore Billing Optimization 
 - With an average billing amount over $25,000, assess billing components, compare with national averages, and consider cost-containment strategies such as bundled payments or telemedicine options.
 
 
