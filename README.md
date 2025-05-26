@@ -14,7 +14,7 @@
 
 In this Healthcare analysis project, I developed a in-depth Excel dashboard by integrating insights from a text files:The goal is to uncover meaningful insights into patient demographics, medical conditions, test outcomes, hospital stay durations, billing patterns and healthcare provider performance.After performing thorough data cleaning and transformation, I utilized Pivot Table to build custom measures and KPIs, enabling dynamic analysis of key in Healthcare metrics.
 
-![Healthcare dashbaord project](https://github.com/Analyticope/Healthcare-Analysis-Project/blob/main/Healthcare%20dashboard%20project.jpg)
+![Healthcare dashbaord project](https://github.com/Analyticope/Healthcare-Analysis-Project/blob/main/Rebranded%20dashboard.jpg)
 
 
 
@@ -131,7 +131,7 @@ Tools & Features Used:
  8. Enhance Data Collection Over Time 
 - Leverage the multi-year dataset (2019–2024) to perform trend forecasting, identifying seasonal patterns, post-pandemic shifts, or improvements in care quality over time.
  
-9.Explore Billing Optimization 
+9. Explore Billing Optimization 
 - With an average billing amount over $25,000, assess billing components, compare with national averages, and consider cost-containment strategies such as bundled payments or telemedicine options.
 
 
